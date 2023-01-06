@@ -1,1 +1,0 @@
-<!DOCTYPE html><html><title>Hello World!</title><br><head> Week #1 </head> <br> <br><head> Created by Brittney </head><p><i>Hello World!</i></p></html>
