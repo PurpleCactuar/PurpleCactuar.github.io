@@ -1,3 +1,8 @@
+
+body {
+ background-image:url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9lXjI/AAAAAAAAHrM/RipxfZqlQQ4/s1600/Texture-Backgrounds-Wallpaper-HD.jpg");
+}
+
 #title {
 font-family: 'AaarghNormal'; 
  font-weight: normal; 
@@ -19,6 +24,13 @@ font-family: 'AaarghNormal';
  border:solid 1px;
  padding: 10px;
  margin:10px;
+}
+
+#container {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
 }
 
 .row{
@@ -47,10 +59,6 @@ img {
  margin-left: 5px;
  margin-top:10px;
  }
-
-body {
- background-image:url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9lXjI/AAAAAAAAHrM/RipxfZqlQQ4/s1600/Texture-Backgrounds-Wallpaper-HD.jpg");
-}
 
 .clear {
     clear: both;
