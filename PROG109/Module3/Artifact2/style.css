@@ -1,6 +1,6 @@
 #title {
     font-weight: normal;
-    font-size: 48px;
+    font-size: 36px;
     font-family: "Journal74Regular";
 
     position: fixed;
@@ -48,7 +48,7 @@ body {
     width: 12.0%;
     height: 60px;
     background-color: white;
-    float: center;
+    float: left;
 }
 
 .black {
@@ -56,7 +56,7 @@ body {
     width: 12.0%;
     height: 60px;
     background-color: #787878;
-    float: center;
+    float: left;
 }
 
 img {
