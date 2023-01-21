@@ -19,7 +19,7 @@
    bottom: 0px;
    left: 0px; 
    padding: 10px;
-   margin: 10px;
+   margin: 0px;
    width: 100%;
    background-color: lightyellow;
    text-align: center; 
@@ -34,7 +34,7 @@ background-image:url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9lXjI/AAAAAAAA
     margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .row {
@@ -48,7 +48,7 @@ background-image:url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9lXjI/AAAAAAAA
  width: 10%;
  height: 60px;
  background-color: white;
- float: left;
+ float: center;
 }
  
 .black {
@@ -56,7 +56,7 @@ background-image:url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9lXjI/AAAAAAAA
  width: 10%;
  height: 60px;
  background-color: #787878;
- float: left;
+ float: center;
 }
 
 img {
