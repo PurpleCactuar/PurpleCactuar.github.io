@@ -9,7 +9,7 @@
     padding: 10px;
     margin: 0px;
     width: 100%;
-    background-color: lightyellow;
+    background-color: C0C0C0;
     text-align: center; 
     z-index: 10;
 }
@@ -21,7 +21,7 @@
     padding: 10px;
     margin: 0px;
     width: 100%;
-    background-color: lightyellow;
+    background-color: C0C0C0;
     text-align: center; 
     z-index: 10;
 }
@@ -55,7 +55,7 @@ body {
     border: 1px solid black;
     width: 12.0%;
     height: 60px;
-    background-color: #787878;
+    background-color: #C0C0C0;
     float: left;
 }
 
