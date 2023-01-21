@@ -1,5 +1,3 @@
-
-
 #title {
  font-weight: normal; 
  font-size: 36px;
@@ -18,7 +16,6 @@
 
 #footer {
    position: fixed;
-   top: 0px;
    bottom: 0px;
    left: 0px; 
    padding: 10px;
@@ -70,3 +67,4 @@ img {
 .clear {
     clear: both;
 }
+
