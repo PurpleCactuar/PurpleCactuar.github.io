@@ -1,7 +1,7 @@
 #title {
  font-weight: normal; 
- font-size: 36px;
-  font-family: 'EffectsEightyItalic'; 
+ font-size: 40px;
+ font-family: 'EffectsEightyItalic'; 
 
  position: fixed;
  top: 0px;
@@ -45,16 +45,16 @@ background-image:url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9lXjI/AAAAAAAA
 
 .white {
  border: 1px solid black;
- width: 13.0%;
- height: 80px;
+ width: 12%;
+ height: 60px;
  background-color: white;
  float: left;
 }
  
 .black {
  border: 1px solid black;
- width: 13.0%;
- height: 80px;
+ width: 12%;
+ height: 60px;
  background-color: #787878;
  float: left;
 }
@@ -67,4 +67,3 @@ img {
 .clear {
     clear: both;
 }
-
