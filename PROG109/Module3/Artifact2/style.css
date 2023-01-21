@@ -1,33 +1,33 @@
 #title {
- font-weight: normal; 
- font-size: 36px;
- font-family: "EffectsEightyItalic"; 
+    font-weight: normal;
+    font-size: 36px;
+    font-family: "EffectsEightyItalic";
 
- position: fixed;
- top: 0px;
- left: 0px; 
- padding: 10px;
- margin: 0px;
- width: 100%;
- background-color: lightyellow;
- text-align: center; 
- z-index: 10;
+    position: fixed;
+    top: 0px;
+    left: 0px; 
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    background-color: lightyellow;
+    text-align: center; 
+    z-index: 10;
 }
 
 #footer {
-   position: fixed;
-   bottom: 0px;
-   left: 0px; 
-   padding: 10px;
-   margin: 0px;
-   width: 100%;
-   background-color: lightyellow;
-   text-align: center; 
-   z-index: 10;
+    position: fixed;
+    bottom: 0px;
+    left: 0px; 
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    background-color: lightyellow;
+    text-align: center; 
+    z-index: 10;
 }
 
 body {
-background-image:url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9lXjI/AAAAAAAAHrM/RipxfZqlQQ4/s1600/Texture-Backgrounds-Wallpaper-HD.jpg");
+    background-image:url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9lXjI/AAAAAAAAHrM/RipxfZqlQQ4/s1600/Texture-Backgrounds-Wallpaper-HD.jpg");
 }
 
 #container {
@@ -38,31 +38,31 @@ background-image:url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9lXjI/AAAAAAAA
 }
 
 .row {
- position: relative;
- margin-left: 10%;
- margin-right: 10%;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .white {
- border: 1px solid black;
- width: 10%;
- height: 60px;
- background-color: white;
- float: center;
+    border: 1px solid black;
+    width: 12.0%;
+    height: 60px;
+    background-color: white;
+    float: left;
 }
- 
+
 .black {
- border: 1px solid black;
- width: 10%;
- height: 60px;
- background-color: #787878;
- float: center;
+    border: 1px solid black;
+    width: 12.0%;
+    height: 60px;
+    background-color: #787878;
+    float: left;
 }
 
 img {
- margin-left: 5px;
- margin-top: 10px;
- }
+    margin-left: 5px;
+    margin-top:10px;
+}
 
 .clear {
     clear: both;
