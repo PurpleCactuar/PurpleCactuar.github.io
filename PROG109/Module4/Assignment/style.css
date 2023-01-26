@@ -1,35 +1,42 @@
-<style type="text/css">
 
 * {
 	font-family: SpotCookieRegular;
 	color: #665544;
 	text-align: center;}
-
+                
 body {
 	width: 90%;
 	margin: 0 auto;}
-	#content {
+                
+#content {
 	overflow: auto;}
-	#nav, #feature, #footer {
+                
+#nav, #feature, #footer {
 	margin: 1%;}
-	.column1, .column2, .column3 {
+                
+.column1, .column2, .column3 {
 	width: 31.3%;
 	float: left;
 	margin: 1%;}
-	.column3 {
+                
+.column3 {
 	margin-right: 0%;}
 
 li {
 	display: inline;
 	padding: 0.5em;}
-
-#nav, #footer {
-	background-color: #efefef;
-	padding: 0.5em 0;}
-
-#feature, .article {
+                
+#header {
+        background-color: #0000FF;
+        height:100px;}
+                
+ #feature, .article {
 	height: 10em;
 	margin-bottom: 1em;
-	background-color: #efefef;}
+	background-color: #1E90FF;}
 
-		</style>
+#footer {
+	background-color: #87CEFA;
+	padding: 0.5em 0;}
+                
+}
