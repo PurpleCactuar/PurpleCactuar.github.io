@@ -1,12 +1,13 @@
 
 * {
 	font-family: SpotCookieRegular;
-	color: #665544;
+	color: #FFFFFF;
 	text-align: center;}
                 
 body {
 	width: 90%;
-	margin: 0 auto;}
+	margin: 0 auto;
+	background-image:url("https://www.smogon.com/forums/attachments/1592014023443-png.254171/");}
                 
 #content {
 	overflow: auto;}
