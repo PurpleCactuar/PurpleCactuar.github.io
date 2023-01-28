@@ -1,8 +1,13 @@
 
+h1 {
+   font-family: "PetitFormalScriptRegular";
+   font-weight: normal;
+   font-style: normal;}
+
 * {
-font-family: "PetitFormalScriptRegular";
-color: #FFFFF0;
-text-align: center;}
+	font-family: Arial, Verdana, sans-serif;
+	color: #000000;
+	text-align: center;}
                 
 html {
     background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2a860bb0-1d61-4ac2-b998-cc9196e003be/d49kjyc-9d8964b0-585f-4992-9927-789b0a8c2711.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzJhODYwYmIwLTFkNjEtNGFjMi1iOTk4LWNjOTE5NmUwMDNiZVwvZDQ5a2p5Yy05ZDg5NjRiMC01ODVmLTQ5OTItOTkyNy03ODliMGE4YzI3MTEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.nBVvNi_E38bCsM3x3jt2mIr5h8LOMUa3Kaacv-ALQqE");
@@ -11,17 +16,20 @@ html {
     background-position: center;
     height: 100%;}
 
+body {
+	width: 90%;
+	margin: 0 auto;}
                 
 #content {
 	overflow: auto;}
                 
 #nav, #feature, #footer {
-    margin: 1%;}
+    	margin: 1%;}
 
 .column1, .column2, .column3 {
-    width: 31.3%;
-    float: left;
-    margin: 1%;}
+    	width: 31.3%;
+    	float: left;
+    	margin: 1%;}
                
 .column3 {
 	margin-right: 0%;}
@@ -31,9 +39,9 @@ li {
 	padding: 0.5em;}
                 
 #header {
-    background-color: #FF0000;
-    height:100px;
-    margin: 1%;}
+    	background-color: #FF0000;
+    	height:100px;
+    	margin: 1%;}
                 
 #feature {
 	height: 10em;
