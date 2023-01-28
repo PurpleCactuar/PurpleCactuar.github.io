@@ -7,8 +7,9 @@
 body {
 	width: 90%;
 	margin: 0 auto;
-	background-image:url("https://www.smogon.com/forums/attachments/1592014023443-png.254171/");}
-                
+	background-image:url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2a860bb0-1d61-4ac2-b998-cc9196e003be/d49kjyc-9d8964b0-585f-4992-9927-789b0a8c2711.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzJhODYwYmIwLTFkNjEtNGFjMi1iOTk4LWNjOTE5NmUwMDNiZVwvZDQ5a2p5Yy05ZDg5NjRiMC01ODVmLTQ5OTItOTkyNy03ODliMGE4YzI3MTEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.nBVvNi_E38bCsM3x3jt2mIr5h8LOMUa3Kaacv-ALQqE");
+}            
+
 #content {
 	overflow: auto;}
                 
@@ -19,9 +20,23 @@ body {
 	width: 31.3%;
 	float: left;
 	margin: 1%;}
+
+.column1 {
+	height: 10em;
+	margin-bottom: 1em;
+	background-color: #FFD700;}
+            
+.column2 {
+	height: 10em;
+	margin-bottom: 1em;
+	background-color: #008000;}
                 
 .column3 {
+	height: 10em;
+	margin-bottom: 1em;
+	background-color: #1E90FF;
 	margin-right: 0%;}
+                
 
 li {
 	display: inline;
