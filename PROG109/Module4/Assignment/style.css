@@ -26,6 +26,11 @@ body {
 #nav, #feature, #footer {
     	margin: 1%;}
 
+#nav {
+    background-color: #FF0000;
+    height:100px;
+    margin: 1%;}
+
 .column1, .column2, .column3 {
     	width: 31.3%;
     	float: left;
@@ -37,12 +42,7 @@ body {
 li {
 	display: inline;
 	padding: 0.5em;}
-                
-#header {
-    	background-color: #FF0000;
-    	height:100px;
-    	margin: 1%;}
-                
+                            
 #feature {
 	height: 10em;
 	margin-bottom: 1em;
