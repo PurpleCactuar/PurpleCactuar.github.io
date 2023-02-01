@@ -1,1 +1,25 @@
-alsibviUSBRGV
+* {
+	font-family: Arial, Verdana, sans-serif;
+	color: #000000;
+	text-align: center;}
+                
+html {
+    	background-image: url("https://wallpaperset.com/w/full/3/0/2/162508.jpg");
+    	background-size: cover;
+    	background-repeat: no-repeat;
+    	background-position: center;
+    	height: 100%;}
+    
+body {
+	width: 90%;
+	margin: 0 auto;}
+                
+#content {
+	overflow: auto;}
+                
+#nav, #feature, #footer {
+    	margin: 1%;}
+
+#nav {
+    	background-color: #FF0000;
+      	padding: 0.5em 0;}
