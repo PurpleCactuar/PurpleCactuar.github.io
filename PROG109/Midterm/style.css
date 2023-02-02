@@ -20,19 +20,11 @@ body {
 	margin: 0 auto;}
 
 /* Header */
-.header {
-  font-size: 14px;
+#header {
+  font-size: 18px;
   text-align: center;
-  background-color: white;
-  padding: 0.5em 0;}
-}
-
-/* Nav */
-.nav {
-  padding: 30px;
-  font-size: 14px;
-  text-align: center;
-  background: white;
+  background-color: EE82EE;
+  padding: 0.5em 0;
 }
 
 li {
