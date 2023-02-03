@@ -30,8 +30,9 @@ body {
 }
 
 li {
-	display: inline;
-	padding: 0.5em;
+display: inline;
+padding: 0.5em;
+font-size: 12px;
 }
 
 /* Create two unequal columns that floats next to each other */
