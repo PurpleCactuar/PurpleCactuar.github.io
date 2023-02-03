@@ -71,7 +71,7 @@ font-size: 12px;
   margin-top: 20px;
 }
 
-/* Validated Page, looking weird so moved around*/
+/* Validated Page, updating width*/
 #screenshots, #html, #css {
     border: white solid;
     border-radius: 10px;
@@ -80,6 +80,12 @@ font-size: 12px;
     background-color: #8eb8fa;
 }
 
+#html img, #css img {
+    display: block;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
 
 h3 {
     border: var(--main-bg-color) solid;
@@ -90,20 +96,13 @@ h3 {
 }
 
 #html {
-    width: 55%;
+    width: 50%;
     float: left;
     background-color: #fcf4c2;
 }
 
 #css {
-    width: 55%;
+    width: 50%;
     float: right;
     background-color: #f4c2fc;
-}
-
-#html img, #css img {
-    display: block;
-    margin-top: 10px;
-    border-radius: 10px;
-    width: 100%;
 }
