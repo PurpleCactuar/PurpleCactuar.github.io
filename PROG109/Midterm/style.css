@@ -1,4 +1,4 @@
-/*Body */
+/* Body */
 
 * {
 	font-family: "PetitFormalScriptRegular";
@@ -69,4 +69,40 @@ font-size: 12px;
   text-align: center;
   background-color: rgba(255,192,203,.75);
   margin-top: 20px;
+}
+
+/* Validated Page */
+#screenshots, #html, #css {
+    border: white solid;
+    border-radius: 10px;
+    padding: 10px;
+    overflow: auto;
+    background-color: #8eb8fa;
+}
+
+#html {
+    width: 45%;
+    float: left;
+    background-color: #fcf4c2;
+}
+
+#css {
+    width: 45%;
+    float: right;
+    background-color: #f4c2fc;
+}
+
+h3 {
+    border: var(--main-bg-color) solid;
+    border-radius: 10px;
+    background-color: var(--main-bg-color);
+    display: inline;
+    padding: 5px
+}
+
+#html img, #css img {
+    display: block;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
 }
