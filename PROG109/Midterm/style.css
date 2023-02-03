@@ -80,16 +80,11 @@ font-size: 12px;
     background-color: #8eb8fa;
 }
 
-#html {
-    width: 45%;
-    float: left;
-    background-color: #fcf4c2;
-}
-
-#css {
-    width: 45%;
-    float: right;
-    background-color: #f4c2fc;
+#html img, #css img {
+    display: block;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
 }
 
 h3 {
@@ -100,9 +95,14 @@ h3 {
     padding: 5px
 }
 
-#html img, #css img {
-    display: block;
-    margin-top: 10px;
-    border-radius: 10px;
-    width: 100%;
+#html {
+    width: 55%;
+    float: left;
+    background-color: #fcf4c2;
+}
+
+#css {
+    width: 55%;
+    float: right;
+    background-color: #f4c2fc;
 }
