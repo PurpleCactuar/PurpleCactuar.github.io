@@ -71,7 +71,7 @@ font-size: 12px;
   margin-top: 20px;
 }
 
-/* Validated Page */
+/* Validated Page, looking weird so moved around*/
 #screenshots, #html, #css {
     border: white solid;
     border-radius: 10px;
@@ -80,12 +80,6 @@ font-size: 12px;
     background-color: #8eb8fa;
 }
 
-#html img, #css img {
-    display: block;
-    margin-top: 10px;
-    border-radius: 10px;
-    width: 100%;
-}
 
 h3 {
     border: var(--main-bg-color) solid;
@@ -105,4 +99,11 @@ h3 {
     width: 55%;
     float: right;
     background-color: #f4c2fc;
+}
+
+#html img, #css img {
+    display: block;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
 }
