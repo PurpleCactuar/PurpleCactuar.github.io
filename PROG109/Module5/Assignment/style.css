@@ -10,7 +10,7 @@ body {
 	margin: 0px 0px 0px 0px;}
 
 h1 {
-	background-image: url('../images/bullseye-logo.png');
+	background-image: url("Images/bullseye-logo.png");
 	background-repeat: no-repeat;
 	text-indent: 100%;
 	white-space: nowrap;
