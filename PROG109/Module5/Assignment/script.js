@@ -17,3 +17,6 @@ if (table === null) {
     }
 
 }
+/*put msg on blkboard*/
+var el = document.getElementById('blackboard');
+el.innerHTML = msg;
