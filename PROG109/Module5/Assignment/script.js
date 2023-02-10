@@ -1,5 +1,4 @@
-let table;
-do { table = prompt ("Give me a number between 0 and 10?");
+let table = prompt ("Give me a number between 0 and 10?");
 var operator = 'multiplication';
 var i = 1;               
 var msg = "<h2>Multiplication Table</h2>";   
