@@ -7,7 +7,7 @@ do { table = prompt ("Give me a number between 0 and 10?");
 var i = 1;                
 var msg = "<h2>Multiplication Table</h2>";   
 
-} else {
+if (operator === 'multiplication') {
     while (i < 11) {
         msg += i + ' x ' + table + ' = ' + (i * table) + '<br />';
         i++;
