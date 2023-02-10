@@ -7,13 +7,9 @@ do { table = prompt ("Give me a number between 0 and 10?");
 var i = 1;                
 var msg = "<h2>Multiplication Table</h2>";   
 
-/*promt msg for cancel; multiply*/
-if (table === null) {
-    msg += "No! Please don't cancel!";
-} else {
-    while (i < 11) {
-        msg += i + ' x ' + table + ' = ' + (i * table) + '<br />';
-        i++;
+while (i < 11) {
+  msg += i + ' x ' + table + ' = ' + (i * table) + '<br />';
+  i++;
     }
 
 }
