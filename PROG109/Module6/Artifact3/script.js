@@ -7,11 +7,12 @@ function createRhombus(pHeight, pColorEven, pColorOdd, pSymbol) {
 
 function upLeft(pHeight, pColorEven, pColorOdd, pSymbol) {
     var rLine = "";
-    for (i = 0; i < pHeight; i++) {
+    for (i = 1; i <=pHeight; i++) {
         rLine += "<p>";
+	for(x=1; x<=pHeight-i;x++){
         
 //Create each line on the Rhombus
-    for (j = 0; j <= i; j++) {
+    for(j=x;j<=pHeight;j++){
 
 //Is the position even or odd so we change the color
 if (j % 2)
