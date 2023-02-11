@@ -73,6 +73,8 @@ font-size: 12px;
 
 /* Validated Page, updating width*/
 #screenshots, #html, #css {
+    height: 200px;
+    width: 200px;
     border: white solid;
     border-radius: 10px;
     padding: 10px;
