@@ -10,8 +10,8 @@
                 
 html {
     	background-image: url("https://wallpaperset.com/w/full/3/0/2/162508.jpg");
-    	background-size: cover;
-    	background-repeat: repeat;
+    	background-size: contain;
+    	background-repeat: no-repeat;
     	background-position: center;
     	height: 100%;
 }
