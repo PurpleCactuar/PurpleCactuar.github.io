@@ -14,6 +14,7 @@ function upLeft(pHeight, pColorEven, pColorOdd, pSymbol){
   var rLine ="";
   for (i=1;i<=pHeight;i++){
     rLine +="<p>";
+
     //Fill in the left side of every row with spaces
     for(x=1; x<=pHeight-i;x++){
       //rLine+="-";
