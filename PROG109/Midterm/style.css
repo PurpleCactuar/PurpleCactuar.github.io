@@ -11,7 +11,7 @@
 html {
     	background-image: url("https://wallpaperset.com/w/full/3/0/2/162508.jpg");
     	background-size: cover;
-    	background-repeat: no-repeat;
+    	background-repeat: repeat;
     	background-position: center;
     	height: 100%;
 }
