@@ -1,5 +1,3 @@
-/*Taken from the assignment*/
-
 // Create the template for objects that are hotels
 function Hotel(name, rooms, booked) {
   this.name = name;
