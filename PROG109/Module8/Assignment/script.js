@@ -1,5 +1,5 @@
 function additem(){
-var newItem = documnet.getElemntById('items').value;
+var newItem = document.getElemntById('items').value;
 
     // Create a new element and store it in a variable. 
     var newEl = document.createElement('li');
