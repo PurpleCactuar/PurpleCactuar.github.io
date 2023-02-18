@@ -1,14 +1,19 @@
-// Create a new element and store it in a variable.
-var newEl = document.createElement('li');
+function additem(){
+var newItem = documnet.getElemntById('items').value;
 
-// Create a text node and store it in a variable.
-var newText = document.createTextNode(entryText);
+    // Create a new element and store it in a variable. 
+    var newEl = document.createElement('li');
 
-// Attach the new text node to the new element.
-newEl.appendChild(newText);
+    // Create a text node and store it in a variable.
+    var newText = document.createTextNode(newItem);
 
-// Find the position where the new element should be added.
-var position = document.getElementsByTagName('ul')[0];
+    // Attach the new text node to the new element.
+    newEl.appendChild(newText);
 
-// Insert the new element into its position.
-position.appendChild(newEl);
+    // Find the position where the new element should be added.
+    var position = document.getElementsByTagName('ul')[0];
+
+    newEl.setAttribute("id",document.getElementsByTagName('ul').length+1);
+
+    // Insert the new element into its position.
+    position.appendChild(newEl);}
