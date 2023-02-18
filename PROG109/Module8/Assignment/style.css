@@ -12,7 +12,7 @@ body {
 	/* Responsive page rules at bottom of style sheet */
 
 h1 {
-	background-image: url(../images/kinglogo.png);
+	background-image: url(/image/kinglogo.png);
 	background-repeat: no-repeat;
 	background-position: center center;
 	text-align: center;
