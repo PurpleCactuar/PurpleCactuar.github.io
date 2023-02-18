@@ -1,4 +1,4 @@
-function additem(){
+function addItem(){
 var newItem = document.getElementById('items').value;
 
     // Create a new element and store it in a variable. 
@@ -12,8 +12,6 @@ var newItem = document.getElementById('items').value;
 
     // Find the position where the new element should be added.
     var position = document.getElementsByTagName('ul')[0];
-
-    newEl.setAttribute("id",document.getElementsByTagName('ul').length+1);
 
     // Insert the new element into its position.
     position.appendChild(newEl);}
