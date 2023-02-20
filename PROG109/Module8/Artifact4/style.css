@@ -1,1 +1,23 @@
-iugu
+html {
+    background-color: rgb(53, 54, 58);
+    color: white;
+    font-family: font-family: Arial,Verdana,Helvetica;
+}
+
+label * {
+    background-color: rgb(45, 46, 48);
+    color: white;
+}
+
+button {
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(45, 46, 48);
+}
+
+#errorMessages {
+    color: red;
+}
+
+
