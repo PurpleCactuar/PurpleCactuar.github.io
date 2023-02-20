@@ -11,48 +11,132 @@
     <script src="script.js"></script>
 </head>
 
-<body>
+	<body>
     <form action="thankyou.html" onsubmit="return validateForm();">
-    <form action="" name="myform" id="myform">
-<p>
-	<label for='FirstName'>First Name:</label>
-	<input type="text" id="FirstName" name="FirstName" />
-</p>
-<p>
-	<label for='LastName'>Last Name:</label>
-	<input type="text" id="LastName" name="LastName" />
-</p>
-<p>
-	<label for='Email'>EMail:</label>
-	<input type="text" id="Email" name="EMail" />
-</p>
-<p>
-	<label for='Phone'>Phone:</label>
-	<input type="text" id="Phone" name="Phone" />
-</p>
-<p>
-	<label for='Address'>Address:</label>
-	<textarea cols="20" rows="5" id="Address" name="Address"></textarea>
-</p>
-<p>
-	<label for='Country'>Country:</label>
-	<select id="Country"  name="Country">
-        <option value="000" selected="selected">[choose yours]</option>
-        <option value="008">Albania</option>
-        <option value="012">Algeria</option>
-        <option value="016">American Samoa</option>
-        <option value="020">Andorra</option>
-        <option value="024">Angola</option>
-        <option value="660">Anguilla</option>
-        <option value="010">Antarctica</option>
-        <option value="028">Antigua And Barbuda</option>
-        <option value="032">Argentina</option>
-        <option value="051">Armenia</option>
-        <option value="533">Aruba</option>
-	</select>
-</p>
-	    </form>
-<div id="errorMessages"></div>
+        <label>
+            First Name: <br>
+            <input type="text" id="firstNameInput">
+        </label>
+        <br>
+        <label>
+            Last Name: <br>
+            <input type="text" id="lastNameInput">
+        </label>
+        <br>
+        <label>
+            Email: <br>
+            <input type="text" id="emailInput">
+        </label>
+        <br>
+        <label>
+            Phone: <br>
+            <input type="text" id="phoneInput">
+        </label>
+        <br>
+        <label>
+            Username: <br>
+            <input type="text" id="usernameInput">
+        </label>
+        <br>
+        <label>
+            Password: <br>
+            <input type="text" id="passwordInput">
+        </label>
+        <br>
+        <label>
+            Address: <br>
+            <input type="text" id="addressInput">
+        </label>
+        <br>
+        <label>
+            City: <br>
+            <input type="text" id="cityInput">
+        </label>
+        <br>
+        <label>
+            State: <br>
+            <select id="stateInput">
+                <option disabled selected>Select State</option>
+                <option>AL</option>
+                <option>AK</option>
+                <option>AZ</option>
+                <option>AR</option>
+                <option>CA</option>
+                <option>CO</option>
+                <option>CT</option>
+                <option>DE</option>
+                <option>FL</option>
+                <option>GA</option>
+                <option>HI</option>
+                <option>ID</option>
+                <option>IL</option>
+                <option>IN</option>
+                <option>IA</option>
+                <option>KS</option>
+                <option>KY</option>
+                <option>LA</option>
+                <option>ME</option>
+                <option>MD</option>
+                <option>MA</option>
+                <option>MI</option>
+                <option>MN</option>
+                <option>MS</option>
+                <option>MO</option>
+                <option>MT</option>
+                <option>NE</option>
+                <option>NV</option>
+                <option>NH</option>
+                <option>NJ</option>
+                <option>NM</option>
+                <option>NY</option>
+                <option>NC</option>
+                <option>ND</option>
+                <option>OH</option>
+                <option>OK</option>
+                <option>OR</option>
+                <option>PA</option>
+                <option>RI</option>
+                <option>SC</option>
+                <option>SD</option>
+                <option>TN</option>
+                <option>TX</option>
+                <option>UT</option>
+                <option>VT</option>
+                <option>VA</option>
+                <option>WA</option>
+                <option>WV</option>
+                <option>WI</option>
+                <option>WY</option>
+                <option>DC</option>
+            </select>
+        </label>
+        <br>
+        <label>
+            Country: <br>
+            <select id="countryInput">
+                <option disabled selected>Select Country</option>
+            <option value="USA">United States</option>
+	    <option value="008"> Albania</option>
+	    <option value="012">Algeria</option>
+            <option value="016">American Samoa</option>
+            <option value="020">Andorra</option>
+            <option value="024">Angola</option>
+            <option value="660">Anguilla</option>
+            <option value="010">Antarctica</option>
+            <option value="028">Antigua And Barbuda</option>
+            <option value="032">Argentina</option>
+            <option value="051">Armenia</option>
+            <option value="533">Aruba</option></select>
+		    
+            </select>
+        </label>
+        <br>
+        <label>
+            Zip Code: <br>
+            <input type="text" id="zipcodeInput">
+        </label>
+        <br>
+
 
     
   
