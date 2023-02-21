@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="keywords" content="">
-<meta name="description" content="">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+
 <title>Artifact 4: Validate Form</title>
 </head>
 
 	  <body>
-	<form action = "script.js" name = "myForm" onsubmit = "return(validate());">
+    <form action="thankyou.html" onsubmit="return validateForm();">
       <table>
         <tr>
           <th>First Name:</th>
@@ -121,7 +124,6 @@
         <br>
         <button>Submit!</button>
     </form>
-    <br>
 
     <div id="errorMessages"></div>
 
