@@ -4,14 +4,14 @@ html {
 }
 
 label * {
-    background-color: rgb(45, 46, 48);
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 button {
-    border: 1px solid white;
+    border: 1px solid black;
     border-radius: 4px;
-    color: white;
+    color: black;
     background-color: rgb(45, 46, 48);
 }
 
