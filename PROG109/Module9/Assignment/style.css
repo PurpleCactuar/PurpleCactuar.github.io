@@ -1,10 +1,10 @@
   body {
     height: 200px;
-    background: beige;
+    background: light grey;
   }
   .dot {
-    height: 8px; width: 8px;
+    height: 12px; width: 12px;
     border-radius: 4px; /* rounds corners */
-    background: blue;
+    background: purple;
     position: absolute;
   }
