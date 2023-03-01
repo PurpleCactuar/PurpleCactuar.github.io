@@ -1,11 +1,11 @@
-var myImages =["Images/Xmas Fambam.jpeg", 
-               "Images/Binx Xmas.jpeg",
+var myImages =["Images/Binx Xmas.jpeg",
                "Images/Kuma Car.jpeg",
                "Images/Binx and Kuma.jpeg",
-               "Images/Izzy Toy Bin.jpeg"];
+               "Images/Izzy Toy Bin.jpeg",
+               "Images/Izzy Tongue.jpeg"];
 
 
-var captionImages =["Christmas 2020","Binx, the present destroyer","Kuma in her car","Favorite picture of them","Newest edition, Izzy"];
+var captionImages =["Binx, the destroyer","Kuma in her car","Renaissance painting on my wall","Newest edition, Izzy", "Izzy is a weird sleeper"];
 
  var index=0; 
 
