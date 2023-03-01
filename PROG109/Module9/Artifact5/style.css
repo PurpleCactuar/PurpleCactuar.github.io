@@ -41,11 +41,11 @@
 
 /* Caption text */
 .text {
-  color: Fuchsia;
+  color: black;
   font-weight: bold
   font-size: 15px;
   position: absolute;
- bottom: 5px;
+  bottom: 0px;
   width: 100%;
   text-align: center;
 }
