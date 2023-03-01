@@ -1,49 +1,37 @@
-var myImages =["Images/Binx Xmas.jpeg",
-               "Images/Kuma Car.jpeg",
-               "Images/Binx and Kuma.jpeg",
-               "Images/Izzy Toy Bin.jpeg",
-               "Images/Izzy Tongue.jpeg"];
+let slideIndex = 1;
+showSlides(slideIndex);
 
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
 
-var captionImages =["Binx, the destroyer","Kuma in her car","Renaissance painting on my wall","Newest edition, Izzy", "Izzy is a weird sleeper"];
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
 
- var index=0; 
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
 
- function updateImage(){
- document.getElementById("slideshow").src = myImages[index];
- document.getElementById("slideshow").alt= captionImages[index];
- document.getElementById("caption").textContent = captionImages[index]; 
-} 
-
-function next(){
- if (myImages.length == index+1)
- index=0;
- else
- index++;
- updateImage();
-} 
- 
-
-function back(){
- if (index===0)
- index=myImages.length-1;
- else
- index--;
- 
- updateImage();
-} 
-
+//Auto
 function autoSlide(){
 if (document.getElementById("auto").checked)
  next(); 
 }
 
 setInterval(autoSlide,2000); // Next
-
-
-var nextButton = document.getElementById("next"); 
-var previousButton = document.getElementById("previous"); 
-
-previousButton.addEventListener("click",back,false);
-nextButton.addEventListener("click",next,false); 
 
