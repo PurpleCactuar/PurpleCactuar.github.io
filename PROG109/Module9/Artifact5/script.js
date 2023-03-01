@@ -26,12 +26,3 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
-
-//Auto
-function autoSlide(){
-if (document.getElementById("auto").checked)
- next(); 
-}
-
-setInterval(autoSlide,2000); // Next
-
