@@ -5,7 +5,7 @@
 	color: #000000;
 	text-align: center;
  	box-sizing: border-box;
-  	font-weight: bold;
+  	font-weight: normal;
 }
                 
 html {
@@ -25,6 +25,7 @@ body {
 /* Header */
 #header {
   font-size: 18px;
+  font-weight: bold;
   text-align: center;
   background-color: rgba(230,230,250,.75);
   padding: 0.5em 0;
