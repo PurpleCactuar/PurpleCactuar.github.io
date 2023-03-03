@@ -74,7 +74,7 @@ font-size: 12px;
 }
 
 /* Validated Page */
-#screenshot-wrapper, #html, #css {
+#screenshots, #html, #css {
     border: white solid;
     border-radius: 10px;
     padding: 10px;
@@ -82,40 +82,25 @@ font-size: 12px;
     background-color: #8eb8fa;
 }
 
-#screenshot-wrapper h1 {
-    font-family: Helvetica, sans-serif;
-    border: var(--main-bg-color) solid;
-    border-radius: 10px;
-    background-color: var(--main-bg-color);
-    
-    padding: 5px;
-    margin: 10px 0px;
-
-    float: left;
-    clear: both;
-}
-
-
 #html img, #css img {
     display: block;
+    margin-top: 10px;
     border-radius: 10px;
     width: 100%;
-    margin: 10px 0px 0px 0px;
 }
 
-#html h3, #css h3 {
+h3 {
     border: var(--main-bg-color) solid;
     border-radius: 10px;
     background-color: var(--main-bg-color);
     display: inline;
-    padding: 5px;
+    padding: 5px
 }
 
 #html {
     width: 45%;
     float: left;
     background-color: #fcf4c2;
-    clear: left;
 }
 
 #css {
