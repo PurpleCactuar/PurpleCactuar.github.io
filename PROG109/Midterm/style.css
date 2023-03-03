@@ -17,8 +17,8 @@ html {
 }
     
 body {
-	width: 90%;
-	margin: 0 auto;}
+	min width: 960%;
+}
 
 /* Header */
 #header {
