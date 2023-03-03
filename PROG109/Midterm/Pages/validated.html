@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" href="../style.css" type="text/css">
-        <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/fira-mono" type="text/css">
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/warenhaus-typenhebel" type="text/css">
  	<title>Modules</title>
 </head>
 
@@ -31,7 +31,7 @@
 <div class="row">
   <div class="leftcolumn">
     <div class="card">
-      <h2>Module Assignments Page</h2>
+      <h2>Validator Page</h2>
       <h5>In progress...</h5>
     
       <p>Some text..</p>
@@ -45,7 +45,32 @@
     <div class="card">
       <h2>IDK</h2>
       
-      <p>sdlgbdrbgad</p>
+                  <div id="screenshot-wrapper">
+                <script>
+                    let mes = "", temp = "";
+                    let pageNames = ["Home","About","Coursework","Artifacts","Module Assignments","Contact Me","Creative Page","Validated","Thank You"];
+                    let pageNamesDashCase = ["home","about","coursework","artifacts","module-assignments","contact-me","creative-page","validated","thank-you"];
+
+                    for (let i = 0; i < pageNames.length; i++) {
+                        let pageName = pageNames[i];
+                        let pageNameDashCase = pageNamesDashCase[i];
+                        temp = `<h1>${pageName}</h1>
+                                    <div id="screenshots">
+                                    <div id="html">
+                                        <h3>HTML</h3>
+                                        <img src="imgs/verification/html-verification-${pageNameDashCase}.png" alt="HTML Verification of ${pageName} page">
+                                    </div>
+                                    <div id="css">
+                                        <h3>CSS</h3>
+                                        <img src="imgs/verification/css-verification-${pageNameDashCase}.png" alt="CSS Verification of ${pageName} page">
+                                    </div>
+                                    
+                                    </div>
+                                <br>`;
+                        mes += temp;
+                    }
+                    document.write(mes);
+                </script>
     </div>
 
   </div>
