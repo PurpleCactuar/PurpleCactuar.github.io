@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" href="../style.css" type="text/css">
         <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/warenhaus-typenhebel" type="text/css">
- 	<title>Modules</title>
+ 	<title>Validated</title>
 </head>
 
   
@@ -32,10 +32,12 @@
   <div class="leftcolumn">
     <div class="card">
       <h2>Validator Page</h2>
-      <h5>In progress...</h5>
-    
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+
+	    <div id="screenshots">
+                        <div id="html">
+                            <h3>HTML</h3>
+                            <img src="imgs/html-verification.png" alt="HTML Verification of this page">
+                        </div>
     </div>
     
 
@@ -45,32 +47,7 @@
     <div class="card">
       <h2>IDK</h2>
       
-                  <div id="screenshot-wrapper">
-                <script>
-                    let mes = "", temp = "";
-                    let pageNames = ["Home","About","Coursework","Artifacts","Module Assignments","Contact Me","Creative Page","Validated","Thank You"];
-                    let pageNamesDashCase = ["home","about","coursework","artifacts","module-assignments","contact-me","creative-page","validated","thank-you"];
-
-                    for (let i = 0; i < pageNames.length; i++) {
-                        let pageName = pageNames[i];
-                        let pageNameDashCase = pageNamesDashCase[i];
-                        temp = `<h1>${pageName}</h1>
-                                    <div id="screenshots">
-                                    <div id="html">
-                                        <h3>HTML</h3>
-                                        <img src="imgs/verification/html-verification-${pageNameDashCase}.png" alt="HTML Verification of ${pageName} page">
-                                    </div>
-                                    <div id="css">
-                                        <h3>CSS</h3>
-                                        <img src="imgs/verification/css-verification-${pageNameDashCase}.png" alt="CSS Verification of ${pageName} page">
-                                    </div>
-                                    
-                                    </div>
-                                <br>`;
-                        mes += temp;
-                    }
-                    document.write(mes);
-                </script>
+                 
     </div>
 
   </div>
