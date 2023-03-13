@@ -21,6 +21,10 @@ body {
 	min width: 960%;
 }
 
+h2 {
+    text-align: center;
+}
+
 /* Header */
 #header {
   font-size: 22px;
