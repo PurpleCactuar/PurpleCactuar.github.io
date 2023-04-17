@@ -1,14 +1,52 @@
 fieldset {
-background-color:rgb(255,246,205);	
-border:1px solid rgb(233,69,0);
-margin:10px 0px 30px 2.5%;
-width:70%;
-}
+      background-color: rgb(255, 246, 205);
+      border: 1px solid rgb(233, 69, 0);
+      /*float:left; */
+      margin: 10px 0px 100px 2.5%;
+      width: 46%;
 
-/*  this overides the generic fieldset css setting for this item by id */
-#experience {
-background-color:rgb(217, 227, 235);	
-border:1px solid rgb(0, 167, 233);
-margin:10px 0px 30px 2.5%;
-width:46%;
-}
+    }
+
+    legend {
+      background-color: rgb(233, 69, 0);
+      color: white;
+      padding: 3px 0px;
+      text-indent: 5px;
+      width: 100%;
+    }
+
+    label {
+      clear: left;
+      display: block;
+      float: left;
+      font-size: 0.9em;
+      margin: 7px 4% 7px 5px;
+      width: 40%;
+    }
+
+    input {
+      display: block;
+      float: left;
+      font-size: 0.9em;
+      margin: 7px 0px;
+      width: 50%;
+    }
+
+    #state {
+      width: 50px;
+    }
+
+    select {
+      display: block;
+      float: left;
+      font-size: 0.9em;
+      margin: 7px 0px;
+
+    }
+
+    #correct {
+      font-size: 0.9em;
+      background-color: rgba(233, 70, 0, 0.65);
+      width: 48%;
+
+    }
