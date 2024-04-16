@@ -5,16 +5,16 @@
         <meta name="viewport" content="width=device-width">
  	<title>Sensor Research</title>
 	<style>
-		/* Body */
+/* Body */
 
 * {
 	font-family: 'Times New Roman', serif;
 	color: #000000;
  	box-sizing: border-box;
-  	font-weight: normal;
+  	font-weight: strong;
 }
                 
-html {
+html { 
    background-image: url("https://images.rawpixel.com/image_social_landscape/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsX29mZmljZV83X2RhcmtfYWNhZGVtaWFfaW50ZXJpb3JfZGVzaWduX3dhdGVyY29sb3JfaWxsdV80MzAyYjNjNi1mZjY3LTRmNTAtOWFlMC0zMzQ4NjQzNTkxYzhfMS5qcGc.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -41,7 +41,27 @@ h2 {
   padding: 0.5em 0;
   margin-top: 20px;
 }
+  
+li {
+display: inline;
+padding: 0.5em;
+font-size: 16px;
+}
 
+/* Squiggle effet for links */
+
+:root {
+  --mainColor: #000000;
+}
+
+a:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+}
+  
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {   
@@ -49,20 +69,13 @@ h2 {
   width: 75%;
 }
 
-/* Right column 
+/* Right column */
 .rightcolumn {
   float: left;
   width: 25%;
   padding-left: 20px;
   text-align: center;
-}    */
-
-#feature {
-	height: 10em;
-	margin-bottom: 1em;
- 	background-size: contain;
- 	background-position: right;
- 	background-repeat: no-repeat;}
+}
 
 /* Add a card effect for articles */
 .card {
